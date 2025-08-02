@@ -60,13 +60,13 @@
     docker push linsamtw/tibame_dataflow:0.0.7
 
     docker push tcayi92/tibame_dataflow:0.0.1.gce
-    docker push tcayi92/tibame_dataflow:0.0.2 .
+    docker push tcayi92/tibame_dataflow:0.0.2 
 
 
 #### pull docker image
 
-    docker pull linsamtw/tibame_dataflow:0.0.1
-    docker pull tcayi92/tibame_dataflow:0.0.2
+    docker pull tcayi92/tibame_dataflow:0.0.1.gce
+    docker pull tcayi92/tibame_dataflow:0.0.2 
 
 ## deploy-airflow:
 	DOCKER_IMAGE_VERSION=0.0.1 docker stack deploy --with-registry-auth -c docker-compose-airflow.yml airflow
