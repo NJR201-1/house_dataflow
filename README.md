@@ -27,38 +27,10 @@
 # Docker
 
 #### build docker image
-
-    docker build -f with.env.Dockerfile -t linsamtw/tibame_dataflow:0.0.1 .
-    docker build -f with.env.Dockerfile -t linsamtw/tibame_dataflow:0.0.1.arm64 .
-    docker build -f with.env.Dockerfile -t linsamtw/tibame_dataflow:0.0.2 .
-    docker build -f with.env.Dockerfile -t linsamtw/tibame_dataflow:0.0.2.arm64 .
-    docker build -f with.env.Dockerfile -t linsamtw/tibame_dataflow:0.0.3 .
-    docker build -f with.env.Dockerfile -t linsamtw/tibame_dataflow:0.0.3.arm64 .
-    docker build -f with.env.Dockerfile -t linsamtw/tibame_dataflow:0.0.4 .
-    docker build -f with.env.Dockerfile -t linsamtw/tibame_dataflow:0.0.4.arm64 .
-    docker build -f with.env.Dockerfile -t linsamtw/tibame_dataflow:0.0.5 .
-    docker build -f with.env.Dockerfile -t linsamtw/tibame_dataflow:0.0.5.arm64 .
-    docker build -f gce.with.env.Dockerfile -t linsamtw/tibame_dataflow:0.0.6.gce .
-    docker build -f with.env.Dockerfile -t linsamtw/tibame_dataflow:0.0.7 .
-
     docker build -f gce.with.env.Dockerfile -t tcayi92/tibame_dataflow:0.0.1.gce .
     docker build -f with.env.Dockerfile -t tcayi92/tibame_dataflow:0.0.2 .
 
 #### push docker image
-
-    docker push linsamtw/tibame_dataflow:0.0.1
-    docker push linsamtw/tibame_dataflow:0.0.1.arm64
-    docker push linsamtw/tibame_dataflow:0.0.2
-    docker push linsamtw/tibame_dataflow:0.0.2.arm64
-    docker push linsamtw/tibame_dataflow:0.0.3
-    docker push linsamtw/tibame_dataflow:0.0.3.arm64
-    docker push linsamtw/tibame_dataflow:0.0.4
-    docker push linsamtw/tibame_dataflow:0.0.4.arm64
-    docker push linsamtw/tibame_dataflow:0.0.5
-    docker push linsamtw/tibame_dataflow:0.0.5.arm64
-    docker push linsamtw/tibame_dataflow:0.0.6.gce
-    docker push linsamtw/tibame_dataflow:0.0.7
-
     docker push tcayi92/tibame_dataflow:0.0.1.gce
     docker push tcayi92/tibame_dataflow:0.0.2 
 
